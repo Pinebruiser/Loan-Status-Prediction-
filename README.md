@@ -14,7 +14,9 @@ Key Features
 
     Exploratory Data Analysis (EDA): The notebook includes basic EDA to understand the dataset, checking for null values and duplicates.
 
-    Modeling: The project uses the CatBoostClassifier for prediction. It also uses imblearn.over_sampling.SMOTE to handle potential class imbalance and sklearn.model_selection.GridSearchCV for hyperparameter tuning.
+    Modeling: The project uses the CatBoostClassifier for prediction. While predicting without hnadling class imbalance for one of the model and another that uses imblearn.over_sampling.SMOTE to handle potential class imbalance and sklearn.model_selection.GridSearchCV for hyperparameter tuning.
+
+    Accuracy: The modeles provided accuracy of abouit 96 percent across F1-Score,recall and precision
 
 Requirements
 
